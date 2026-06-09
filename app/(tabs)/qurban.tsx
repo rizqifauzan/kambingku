@@ -5,8 +5,8 @@ export default function QurbanScreen() {
   return (
     <ScreenContainer className="items-center justify-center">
       <View className="gap-2">
-        <Text className="text-2xl font-bold text-foreground">Qurban Preparation</Text>
-        <Text className="text-muted">Coming soon</Text>
+        <Text className="text-2xl font-bold text-foreground">Persiapan Qurban</Text>
+        <Text className="text-muted">Segera hadir</Text>
       </View>
     </ScreenContainer>
   );

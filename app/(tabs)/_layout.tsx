@@ -5,6 +5,7 @@ import { HapticTab } from "@/components/haptic-tab";
 import { IconSymbol } from "@/components/ui/icon-symbol";
 import { Platform } from "react-native";
 import { useColors } from "@/hooks/use-colors";
+import { translations } from "@/constants/translations";
 
 export default function TabLayout() {
   const colors = useColors();
@@ -31,35 +32,35 @@ export default function TabLayout() {
       <Tabs.Screen
         name="index"
         options={{
-          title: "Home",
+          title: translations.home,
           tabBarIcon: ({ color }) => <IconSymbol size={28} name="house.fill" color={color} />,
         }}
       />
       <Tabs.Screen
         name="investors"
         options={{
-          title: "Investors",
+          title: translations.investors,
           tabBarIcon: ({ color }) => <IconSymbol size={28} name="person.2.fill" color={color} />,
         }}
       />
       <Tabs.Screen
         name="breeding"
         options={{
-          title: "Breeding",
+          title: translations.breeding,
           tabBarIcon: ({ color }) => <IconSymbol size={28} name="pawprint.fill" color={color} />,
         }}
       />
       <Tabs.Screen
         name="fattening"
         options={{
-          title: "Fattening",
+          title: translations.fattening,
           tabBarIcon: ({ color }) => <IconSymbol size={28} name="chart.line.uptrend.xyaxis" color={color} />,
         }}
       />
       <Tabs.Screen
         name="qurban"
         options={{
-          title: "Qurban",
+          title: translations.qurban,
           tabBarIcon: ({ color }) => <IconSymbol size={28} name="calendar.badge.clock" color={color} />,
         }}
       />

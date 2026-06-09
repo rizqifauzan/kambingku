@@ -35,3 +35,15 @@
 - [ ] Test navigation flows
 - [ ] Check console for errors
 - [ ] Prepare final deliverable
+
+## Phase 6: Indonesian Translation
+- [x] Translate all UI text to Indonesian
+- [x] Update app name and descriptions
+- [x] Translate alert messages and labels
+
+## Phase 7: Investors Screen Implementation
+- [x] Create search functionality for investors
+- [x] Build investor card component with balance display
+- [x] Add action buttons (Perenaan, Pengemukan, Idul Adha)
+- [x] Implement FAB (floating action button) for adding investor
+- [x] Connect investor data with hardcoded values
