@@ -47,3 +47,17 @@
 - [x] Add action buttons (Perenaan, Pengemukan, Idul Adha)
 - [x] Implement FAB (floating action button) for adding investor
 - [x] Connect investor data with hardcoded values
+
+## Phase 8: Breeding Operations Screen
+- [x] Create hardcoded breeding data (active mothers, kids sales)
+- [x] Build Breeding Operations overview with stats
+- [x] Implement Active Mothers list with batch details
+- [x] Add Recent Sales History section
+- [x] Create navigation to Breeding Detail screen
+
+## Phase 9: Breeding Detail Screen
+- [x] Build breeding batch detail header (BETOK-01)
+- [x] Display batch info (entered date, initial capital)
+- [x] Show kids sold count and total profit
+- [x] Create sales history timeline with dates and prices
+- [x] Add investor share breakdown
